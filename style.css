@@ -1,0 +1,36 @@
+.logo, .logo a:hover{
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #007bff;
+    text-decoration: none;
+}
+.box{
+    margin-top: 50px;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0px 0px 18px #0000ff4f;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+#language, input, button{
+    padding: 5px 10px;
+    border: 1px solid #0000ff40;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 5px;
+
+}
+input{
+    cursor: auto;
+}
+#paragraph{
+    margin-top: 50px;
+}
+#paragraph p {
+    margin-top: 30px;
+}
+#copy-text{
+    width: 100px;
+    display: none;
+}
